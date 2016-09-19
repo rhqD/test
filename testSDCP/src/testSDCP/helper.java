@@ -13,7 +13,6 @@ public class helper implements Runnable{
 		// TODO Auto-generated method stub
 		try {
 			s = new Socket("127.0.0.1",5428);
-			s.getInputStream().read();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
