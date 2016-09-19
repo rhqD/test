@@ -6,5 +6,10 @@ public class test {
     		Thread.sleep(100);
     		new helper();
     	}
+    	Thread.sleep(10000);
+    	for(int i=0;i< 2;i++){
+    		Thread.sleep(100);
+    		new helper();
+    	}
     }
 }
